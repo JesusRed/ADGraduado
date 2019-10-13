@@ -1,0 +1,17 @@
+html {
+  font-family: GillSans, Calibri, Trebuchet, sans-serif;
+}
+
+nav .brand-logo, #ext {
+  font-weight: lighter;
+  font-size: 1.2rem;
+  color: white;
+}
+
+#marghea{
+  margin-left: 15px;;
+}
+
+#login{
+  color: #d50000 ;
+}
