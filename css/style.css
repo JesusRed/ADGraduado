@@ -12,6 +12,7 @@ body {
 
 main {
   flex: 1 0 auto;
+  position: ;
 }
 
 .pin-top {
@@ -26,11 +27,37 @@ main {
   background-color: #d50000;
 }
 
-nav .brand-logo,
+.slider .indicators{
+  bottom: 50px;
+  z-index: 2;
+}
+
+.slider{
+  margin-bottom: -25px;
+}
+
+nav #logouno,
 #ext {
-  font-weight: lighter;
-  font-size: 1.2rem;
+  font-weight: thin;
+  font-size: 1.3rem;
   color: white;
+}
+
+.dropdown-content li > a, .dropdown-content li > span{
+  color: white;
+}
+
+#logodos{
+  font-size: 1.5rem;
+  margin-left: 15px;
+}
+
+#lin:hover{
+  background-color: #d32f2f93;
+}
+
+#lin{
+  font-size: 0.8rem;
 }
 
 #marghea {
