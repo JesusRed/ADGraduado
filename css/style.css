@@ -1,17 +1,47 @@
-html {
+html,
+body {
   font-family: GillSans, Calibri, Trebuchet, sans-serif;
+  height: 100%;
 }
 
-nav .brand-logo, #ext {
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+.pin-top {
+  position: relative;
+}
+
+.block {
+  height: 100%;
+}
+
+.slider .indicators .indicator-item.active {
+  background-color: #d50000;
+}
+
+nav .brand-logo,
+#ext {
   font-weight: lighter;
   font-size: 1.2rem;
   color: white;
 }
 
-#marghea{
-  margin-left: 15px;;
+#marghea {
+  margin-left: 10px;
 }
 
-#login{
-  color: #d50000 ;
+#login {
+  color: #d50000;
+}
+
+.parallax-container {
+  height: 500px;
+
 }
