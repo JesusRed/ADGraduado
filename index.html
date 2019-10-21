@@ -16,229 +16,95 @@
 
 <body>
   <header>
-    <!--SIDENAV: BARRA DE NAVEGACION LATERAL-->
-    <ul class="sidenav red darken-4" id="mobile-demo">
-      <li><a id="login" class="waves-effect waves-light btn grey lighten-5"><i
-            class="material-icons right">person</i>INGRESAR</a></li>
-      <li>
-        <div class="divider"></div>
-      </li>
-      <li><a class="subheader">Sitios Institucionales</a></li>
-      <li><a id="ext" href=""><i class="material-icons">web</i>Página UFPS</a></li>
-      <li><a id="ext" href=""><i class="material-icons">web</i>Pagina de Sistemas</a></li>
-    </ul>
     <!--ENCABEZADO GENERAL-->
-    <nav >
-      <div class="nav-wrapper red darken-4">
-        <a id="logouno" href="#!" class="brand-logo flow-text truncate"><i id="marghea" class="material-icons">school</i>Graduados
-          ING. SISTEMAS</a>
-        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-        <ul class="right hide-on-med-and-down">
-          <li><a id="ext" href="">Página UFPS</a></li>
-          <li><a id="ext" href="">Pagina de Sistemas</a></li>
-          <li><a id="login" class="waves-effect waves-light btn grey lighten-5"><i
-                class="material-icons right">person</i>INGRESAR</a></li>
-        </ul>
-      </div>
-    </nav>
-    <!--EVENTOS-->
-    <div class="slider" style="margin-top: 10px;">
-      <ul class="slides">
-        <li>
-          <img src="resources/slider1.jpg"> <!-- random image -->
-          <div class="caption center-align">
-            <h3>This is our big Tagline!</h3>
-            <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-          </div>
-        </li>
-        <li>
-          <img src="resources/slider2.jpg"> <!-- random image -->
-          <div class="caption left-align">
-            <h3>Left Aligned Caption</h3>
-            <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-          </div>
-        </li>
-        <li>
-          <img src="resources/slider3.jpg"> <!-- random image -->
-          <div class="caption right-align">
-            <h3>Right Aligned Caption</h3>
-            <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-          </div>
-        </li>
-        <li>
-          <img src="resources/slider4.jpg"> <!-- random image -->
-          <div class="caption center-align">
-            <h3>This is our big Tagline!</h3>
-            <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-          </div>
-        </li>
-      </ul>
+    <div class="navbar-fixed">
+      <nav class="nav-extended red darken-4">
+        <div class="nav-wrapper red darken-2 navbar-fixed">
+          <a id="logouno" href="#!" class="brand-logo flow-text truncate"><i id="marghea"
+              class="material-icons">school</i>Graduados
+            ING. SISTEMAS</a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+          <ul class="right hide-on-med-and-down">
+            <li><a id="ext" href="">Página UFPS</a></li>
+            <li><a id="ext" href="">Pagina de Sistemas</a></li>
+            <li><a id="login" class="waves-effect waves-light btn grey lighten-5"><i
+                  class="material-icons right">person</i>INGRESAR</a></li>
+          </ul>
+        </div>
+        <div class="nav-content red-darken-4">
+          <ul class="red-darken-4">
+            <li class="tab"><a class="dropdown-trigger waves-effect waves-black" href="" data-target="ofertas">OFERTA
+                LABORAL</a></li>
+            <li class="tab"><a class="dropdown-trigger waves-effect waves-black" href=""
+                data-target="encuestas">ENCUESTA</a></li>
+            <li class="tab"><a class="dropdown-trigger waves-effect waves-black tooltipped" href=""
+                data-position="bottom"
+                data-tooltip="Aprende acerca de los beneficios como graduado de nuestra UFPS">SERVICIOS</a></li>
+            <li class="tab"><a class="dropdown-trigger waves-effect waves-black" href="">EXPERIENCIAS</a></li>
+          </ul>
+        </div>
+      </nav>
     </div>
+
+    <ul id="ofertas" class="dropdown-content red darken-2">
+      <li><a id="lin" href="#!">Ofertas del Programa</a></li>
+      <li><a id="lin" href="#!">TuTrabajo</a></li>
+    </ul>
+
+    <ul id="encuestas" class="dropdown-content red darken-2">
+      <li><a id="lin" href="#!">Pregrado</a></li>
+      <li><a id="lin" href="#!">Posgrado</a></li>
+      <li><a id="lin" href="#!">Resultados</a></li>
+    </ul>
+
+
+
+
   </header>
-
-  <!--BARRA ESPECÍFICA-->
-  <div id="prince" class="block">
-    <nav class="pushpin-demo-nav pin-top red darken-2" data-target="prince" style="top: 0px;">
-      <div class="nav-wrapper container">
-        <a id="logodos" href="#!" class="center-align hide-on-large-only brand-logo truncate">Graduados
-          ING. SISTEMAS</a>
-        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">school</i></a>
-        <ul class="left hide-on-med-and-down">
-          <li><a class="dropdown-trigger waves-effect waves-black" href="" data-target="dropdown1">Oferta Laboral<i
-            class="material-icons right ">arrow_drop_down</i></a></li>
-            <li><a class="dropdown-trigger waves-effect waves-black" href="" data-target="dropdown2">Encuesta<i
-              class="material-icons right ">arrow_drop_down</i></a></li>
-            <li><a class="dropdown-trigger waves-effect waves-black tooltipped" href="" data-position="top" data-tooltip="Aprende acerca de los beneficios como graduado de nuestra UFPS">Servicios</a></li>
-          <li><a class="dropdown-trigger waves-effect waves-black" href="">Experiencias</a></li>
-        </ul>
-      </div>
-    </nav>
+  <!--EVENTOS SLIDER-->
+  <div class="slider" style="margin-top: 18px;">
+    <ul class="slides">
+      <li>
+        <img src="resources/slider1.jpg"> <!-- random image -->
+        <div class="caption center-align">
+          <h3>This is our big Tagline!</h3>
+          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+        </div>
+      </li>
+      <li>
+        <img src="resources/slider2.jpg"> <!-- random image -->
+        <div class="caption left-align">
+          <h3>Left Aligned Caption</h3>
+          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+        </div>
+      </li>
+      <li>
+        <img src="resources/slider3.jpg"> <!-- random image -->
+        <div class="caption right-align">
+          <h3>Right Aligned Caption</h3>
+          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+        </div>
+      </li>
+      <li>
+        <img src="resources/slider4.jpg"> <!-- random image -->
+        <div class="caption center-align">
+          <h3>This is our big Tagline!</h3>
+          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+        </div>
+      </li>
+    </ul>
   </div>
-  <!--DROPDOWN-->
-  <ul id="dropdown1" class="dropdown-content red darken-2">
-    <li><a id="lin" href="#!">Ofertas del Programa</a></li>
-    <li><a id="lin" href="#!">TuTrabajo</a></li>
-  </ul>
-  <ul id="dropdown2" class="dropdown-content red darken-2">
-    <li><a id="lin" href="#!">Pregrado</a></li>
-    <li><a id="lin" href="#!">Posgrado</a></li>
-    <li><a id="lin" href="#!">Resultados</a></li>
-    
-  </ul>
 
+
+
+  <!--CONTENIDO-->
   <main>
-    <!--CONTENIDO-->
-    <p class="container flow-text">
-      Esto es sobre el futuro del mundo, es mi legado.
+    <div class="container">
+      <h2 class="center-align">NOTICIAS</h2>
 
-      El nombre de Dios depende de nuestra tribu Clark, porque Dios es tribal, Dios tiene favoritos. Ningún hombre en
-      el cielo intervino cuando yo era niño para salvarme del puño y las abominaciones de papi. Deduje hace mucho que
-      si Dios es todo poderoso no es bueno del todo, y si es bueno del todo no puede ser todo poderoso, y tú tampoco.
-      Ellos tienen que ver el fraude que eres con sus ojos, tus manos llenas de sangre.
-
-      Tienes una cita al otro lado de la bahía. Ya maduró su odio, dos años creciendo, pero no fue muy difícil
-      llevarlo al borde: unas notitas rojas,una explosión, dejaste a tu familia morir. Y ahora volaras hasta él y
-      pelearas con él hasta la muerte. Negro y azul, noche de pelea, el encuentro entre gladiadores más glorioso en la
-      historia del mundo: Dios vs Hombre, el día contra la noche, el hijo de Criptón contra el murciélago de Gótica.
-
-      Si me matas Martha muere, si sales volando Martha también muere, si asesinas al murciélago Martha vive.
-
-      Eso es, y ahora Dios se doblega a mi voluntad.
-
-      Tráeme la cabeza del murciélago.¡Ah, madre de Dios,mira la hora! Cuando llegaste tenías una hora, creo que ya
-      no.
-
-      Este mundo no te deja ser bueno.
-
-      Los niños también comparten.
-
-      Bueno, aquí estoy.
-
-      Si quisiera ya estarías muerto.
-
-      Respíralo, eso es miedo. No eres valiente, los hombres son valientes.
-
-      Apuesto a que tus padres te enseñaron que tú vales mucho, que estás aquí por algo. Mis padres me enseñaron algo
-      diferente: que mueres en la cloaca sin ninguna razón, ellos me enseñaron que el mundo solo tiene sentido si lo
-      obligas a tenerlo. Nunca fuiste un dios, ni siquiera fuiste un hombre.
-
-      - Estás dejando asesinar a Martha.
-      - No comprendo, ¿Por qué dijiste ese nombre?
-      - Encuentra a ese hombre, salva a Martha.
-      - ¿Por qué dijiste ese nombre?, ¿Por qué dijiste ese nombre: Martha?
-      - No, por favor, basta.
-      - ¿Por qué dijiste ese nombre?
-      - Su madre así se llama, su madre así se llama.
-
-      Te voy a hacer una promesa, Martha no morirá esta noche.
-
-      Esto es sobre el futuro del mundo, es mi legado.
-
-      El nombre de Dios depende de nuestra tribu Clark, porque Dios es tribal, Dios tiene favoritos. Ningún hombre en
-      el cielo intervino cuando yo era niño para salvarme del puño y las abominaciones de papi. Deduje hace mucho que
-      si Dios es todo poderoso no es bueno del todo, y si es bueno del todo no puede ser todo poderoso, y tú tampoco.
-      Ellos tienen que ver el fraude que eres con sus ojos, tus manos llenas de sangre.
-
-      Tienes una cita al otro lado de la bahía. Ya maduró su odio, dos años creciendo, pero no fue muy difícil
-      llevarlo al borde: unas notitas rojas,una explosión, dejaste a tu familia morir. Y ahora volaras hasta él y
-      pelearas con él hasta la muerte. Negro y azul, noche de pelea, el encuentro entre gladiadores más glorioso en la
-      historia del mundo: Dios vs Hombre, el día contra la noche, el hijo de Criptón contra el murciélago de Gótica.
-
-      Si me matas Martha muere, si sales volando Martha también muere, si asesinas al murciélago Martha vive.
-
-      Eso es, y ahora Dios se doblega a mi voluntad.
-
-      Tráeme la cabeza del murciélago.¡Ah, madre de Dios,mira la hora! Cuando llegaste tenías una hora, creo que ya
-      no.
-
-      Este mundo no te deja ser bueno.
-
-      Los niños también comparten.
-
-      Bueno, aquí estoy.
-
-      Si quisiera ya estarías muerto.
-
-      Respíralo, eso es miedo. No eres valiente, los hombres son valientes.
-
-      Apuesto a que tus padres te enseñaron que tú vales mucho, que estás aquí por algo. Mis padres me enseñaron algo
-      diferente: que mueres en la cloaca sin ninguna razón, ellos me enseñaron que el mundo solo tiene sentido si lo
-      obligas a tenerlo. Nunca fuiste un dios, ni siquiera fuiste un hombre.
-
-      - Estás dejando asesinar a Martha.
-      - No comprendo, ¿Por qué dijiste ese nombre?
-      - Encuentra a ese hombre, salva a Martha.
-      - ¿Por qué dijiste ese nombre?, ¿Por qué dijiste ese nombre: Martha?
-      - No, por favor, basta.
-      - ¿Por qué dijiste ese nombre?
-      - Su madre así se llama, su madre así se llama.
-
-      Te voy a hacer una promesa, Martha no morirá esta noche.
-
-      Esto es sobre el futuro del mundo, es mi legado.
-
-      El nombre de Dios depende de nuestra tribu Clark, porque Dios es tribal, Dios tiene favoritos. Ningún hombre en
-      el cielo intervino cuando yo era niño para salvarme del puño y las abominaciones de papi. Deduje hace mucho que
-      si Dios es todo poderoso no es bueno del todo, y si es bueno del todo no puede ser todo poderoso, y tú tampoco.
-      Ellos tienen que ver el fraude que eres con sus ojos, tus manos llenas de sangre.
-
-      Tienes una cita al otro lado de la bahía. Ya maduró su odio, dos años creciendo, pero no fue muy difícil
-      llevarlo al borde: unas notitas rojas,una explosión, dejaste a tu familia morir. Y ahora volaras hasta él y
-      pelearas con él hasta la muerte. Negro y azul, noche de pelea, el encuentro entre gladiadores más glorioso en la
-      historia del mundo: Dios vs Hombre, el día contra la noche, el hijo de Criptón contra el murciélago de Gótica.
-
-      Si me matas Martha muere, si sales volando Martha también muere, si asesinas al murciélago Martha vive.
-
-      Eso es, y ahora Dios se doblega a mi voluntad.
-
-      Tráeme la cabeza del murciélago.¡Ah, madre de Dios,mira la hora! Cuando llegaste tenías una hora, creo que ya
-      no.
-
-      Este mundo no te deja ser bueno.
-
-      Los niños también comparten.
-
-      Bueno, aquí estoy.
-
-      Si quisiera ya estarías muerto.
-
-      Respíralo, eso es miedo. No eres valiente, los hombres son valientes.
-
-      Apuesto a que tus padres te enseñaron que tú vales mucho, que estás aquí por algo. Mis padres me enseñaron algo
-      diferente: que mueres en la cloaca sin ninguna razón, ellos me enseñaron que el mundo solo tiene sentido si lo
-      obligas a tenerlo. Nunca fuiste un dios, ni siquiera fuiste un hombre.
-
-      - Estás dejando asesinar a Martha.
-      - No comprendo, ¿Por qué dijiste ese nombre?
-      - Encuentra a ese hombre, salva a Martha.
-      - ¿Por qué dijiste ese nombre?, ¿Por qué dijiste ese nombre: Martha?
-      - No, por favor, basta.
-      - ¿Por qué dijiste ese nombre?
-      - Su madre así se llama, su madre así se llama.
-
-      Te voy a hacer una promesa, Martha no morirá esta noche.
-    </p>
+    </div>
   </main>
+
 
   <!--PIE DE PAGINA-->
   <footer class="page-footer">
