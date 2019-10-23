@@ -11,5 +11,7 @@ $(document).ready(function () {
     $('.slider').slider();
     $(".dropdown-trigger").dropdown({coverTrigger:false});
     $(".dropdown-trigger").dropdown({ hover: true });
+
+    $('.tabs').tabs();
 });
 
