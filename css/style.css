@@ -142,27 +142,30 @@ nav #logouno,
   z-index: 1;
 }
 /*ESTILOS DEL LOGIN*/
-body
-{
-	background: #f5f5f5;
-}
 
 h5
 {
 	font-weight: 400;
 }
 
-.container
+#formulario
 {
-	margin-top: 80px;
+  margin-top: 20px;
+  width: 400px;
+  margin-bottom: 20px;
+}
 
+@media only screen and (max-width: 468px) {
+  /* Aquí van todos los estilos CSS */
+  #formulario{
+    width: 100%;
+    padding: 20px;
+  }
 }
 
 .tabs #formulario
 {
-	background-color: #e0f2f1;
 	height: 60px;
-	opacity: 0.3;
 }
 
 .form-container
@@ -174,4 +177,18 @@ h5
 .confirmation-tabs-btn
 {
 	position: absolute;
+}
+
+/* label focus color */
+.input-field input:focus + label {
+  color: #c62828 !important;
+}
+/* label underline focus color */
+.row .input-field input:focus {
+  border-bottom: 1px solid #c62828 !important;
+  box-shadow: 0 1px 0 0 #c62828  !important
+}
+
+#titulologin{
+  color: #c62828;
 }
