@@ -192,3 +192,24 @@ h5
 #titulologin{
   color: #c62828;
 }
+
+
+
+/*VERTICAL SLIDER*/
+
+
+#simple-vertical {
+  width: 100%;
+  color: #FFF;
+}
+.blockSample {
+  left: 20px; 
+  top: 20px; 
+  padding: 6px 8px; 
+  background: #FFF; 
+  color:#000;
+}
+
+#cargar{
+  margin: 3px;
+}
