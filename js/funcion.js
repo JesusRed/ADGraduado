@@ -1,5 +1,6 @@
 $(document).ready(function () {
-    $('.carousel').carousel({ padding: 120, indicators: true, shift:120,  numVisible: 3, duration: 2000});
+    $('.slider').slider();
+    $('.carousel').carousel({ padding: 120, indicators: true, shift:120,  numVisible: 3, duration: 200});
     $('.sidenav').sidenav();
     $('.tooltipped').tooltip();
     $('.pushpin-demo-nav').each(function () {
@@ -12,6 +13,6 @@ $(document).ready(function () {
     $(".dropdown-trigger").dropdown({ coverTrigger: false });
     $(".dropdown-trigger").dropdown({ hover: true });
     $('.tabs').tabs();
-    $('.videoexp').carousel({ padding: 120, indicators: true });
+   
 });
 
