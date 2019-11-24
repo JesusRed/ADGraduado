@@ -75,6 +75,16 @@ nav #logouno,
 
 }
 
+.input-field .prefix.active {
+  color: #d50000;
+}
+
+input:not([type]):focus:not([readonly]), input[type=text]:not(.browser-default):focus:not([readonly]), input[type=password]:not(.browser-default):focus:not([readonly]), input[type=email]:not(.browser-default):focus:not([readonly]), input[type=url]:not(.browser-default):focus:not([readonly]), input[type=time]:not(.browser-default):focus:not([readonly]), input[type=date]:not(.browser-default):focus:not([readonly]), input[type=datetime]:not(.browser-default):focus:not([readonly]), input[type=datetime-local]:not(.browser-default):focus:not([readonly]), input[type=tel]:not(.browser-default):focus:not([readonly]), input[type=number]:not(.browser-default):focus:not([readonly]), input[type=search]:not(.browser-default):focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]){
+  border-bottom: 1px solid #d50000;
+    -webkit-box-shadow: 0 1px 0 0 #26a69a;
+    box-shadow: 0 1px 0 0 #d50000;
+}
+
 .dropdown-content li:hover,
 .dropdown-content li.active {
   background-color: #b71c1c;
@@ -204,4 +214,17 @@ h5
 
 #gradest{
  padding: 2px;
+}
+
+/*FECHAS*/
+.datepicker-date-display, .datepicker-table td.is-selected{
+  background-color: #b71c1c ;
+}
+
+.datepicker-table td.is-today, .datepicker-cancel, .datepicker-clear, .datepicker-today, .datepicker-done{
+  color: #b71c1c;
+}
+
+#descri.active{
+  color: #b71c1c;
 }
